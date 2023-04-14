@@ -1,0 +1,49 @@
+.dark-theme-button_icons input[type="checkbox"]{
+    background-color: rgb(32, 34, 44);
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    appearance: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dark-theme-button_icons input:checked[type="checkbox"]{
+    background-color: white;
+}
+
+.dark-theme-button_icons input[type="checkbox"]:before{
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 35px;
+    left: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.dark-theme-button_icons input:checked[type="checkbox"]:before{
+    left: 25px;
+    background-color: rgb(32, 34, 44);
+    transition: 0.3s;
+}
+
+.dark-theme-button_icons input[type="checkbox"]:after{
+    content: " ";
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    border-radius: 35px;
+    left: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.dark-theme-button_icons input:checked[type="checkbox"]:after{
+    left: 15px;
+    background-color: white;
+}

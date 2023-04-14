@@ -1,0 +1,916 @@
+{
+  "courses": [
+    {
+      "title": "Absolute Beginners Cooking Course",
+      "description": "Easy meals for the complete novice. A series of short videos that makes it easy for anyone to learn.",
+      "about": "Even if you know nothing about cooking, this course will give you the skills and confidence to prepare and cook a wide range of meals, all taught in simple, step-by-step videos. From boiling an egg through to cooking a full roast dinner. Cook for yourself, cook for the family. This isn't about becoming a chef, it's about being able to look after yourself and save money.",
+      "duration": "3",
+      "price": "11",
+      "rating": 4,
+      "category": "Cooking",
+      "images": [
+        "https://living.medicareful.com/images/posts/cooking-for-beginners-cooking-techniques-and-tips.jpg",
+        "https://images.pexels.com/photos/7964669/pexels-photo-7964669.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/1435899/pexels-photo-1435899.jpeg?auto=compress&cs=tinysrgb&w=400"
+      ],
+      "date": 1666693861319,
+      "owner": {
+        "email": "test1@test.com",
+        "image": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Alphonso Russo",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "title": "Basic Italian Cooking Skills",
+      "description": "Learn how to cook like a genuine italian chef",
+      "about": "For lovers of Italian cuisine, Basic Italian Cooking Skills can jump-start a lifelong passion in starters, pasta, main courses and side dishes.\n\nThis course centered on authenticity and aptitude in Italian Cooking. In 16 lessons, you will cover topics including pasta, vegetables, seafood, meat and fish.\n\nMore specific, students will learn how to prepare soffritto, and use it for tomato sauce and spaghetti with tomato sauce and basil.\n\nFive other lessons are focused on pasta: Carbonara, Pesto sauce, Risotto with saffron, Linguine with fresh clams and Spaghetti with seafood and shell food.\n\nOther two lessons are focused about vegetables. You will learn how to prepare Caponata and perfect Roasted and baked potatoes.\n\nFish and meat complete the course focusing about Meatballs with fresh tomato sauce and Milanese steak.\n\nFinally you will leant how to cook four fish main courses: Octopus and potatoes, Whole fish in crust salt, Swordfish with veggies and herbs and Filet of fish in foil with potatoes.",
+      "duration": "2",
+      "price": "11",
+      "rating": 4.7,
+      "category": "Cooking",
+      "images": [
+        "https://i0.wp.com/www.fruitbookmagazine.it/wp-content/uploads/2021/11/Made-in-Italy-food.jpg?ssl=1",
+        "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2471171/pexels-photo-2471171.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/3621225/pexels-photo-3621225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666694170837,
+      "owner": {
+        "email": "test1@test.com",
+        "image": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Alphonso Russo",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "title": "All-In-One Cooking Course on 5 French Leading Master Sauces",
+      "description": "The best of Culinary Arts. Learn to cook 5 French mother sauces and be able to cook any other French sauce. Sauces 101.",
+      "about": "This All-In-One cooking course on 5 Leading / Mother sauces in classic French cuisine comprises 5 detailed classes on each one of the French Master sauces:\n\nBéchamel sauce\n\nTomato sauce\n\nVelouté sauce\n\nHollandaise sauce\n\nEspagnole sauce\n\nIn each class, I’ll teach you how to think like a professional Chef when cooking sauces. So you can use and implement your knowledge and newly acquired cooking skills and techniques to any kind of French sauce at any point of time, if you follow my simple guidance.\n\nYou'll find in this course all the cooking techniques explained and shown, full recipes, common mistakes broken down and for each French sauce I'll show you a dish that goes perfectly well with it.",
+      "duration": "5",
+      "price": "100",
+      "rating": 4.3,
+      "category": "Cooking",
+      "images": [
+        "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/creamy-asparagus-veloute-480935.jpg",
+        "https://www.aforkstale.com/wp-content/uploads/homemade-French-dressing-recipe.jpg",
+        "http://www.artfuldishes.com/wp-content/uploads/2016/10/french-dressing-10.jpg",
+        "https://www.tasteofhome.com/wp-content/uploads/2017/12/shutterstock_452355661.jpg"
+      ],
+      "date": 1666694578197,
+      "owner": {
+        "email": "test1@test.com",
+        "image": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Alphonso Russo",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "title": "Al-in-One Mexican Cuisine ",
+      "description": "Learn a complete Mexican cuisines set menu from start to finish",
+      "about": "Mexican cuisine is an important aspect of the culture, social structure and popular traditions of Mexico. The most important example of this connection is the use of mole (traditional sauce) for special occasions and holidays, particularly in the South and Central regions of the country.\n\nMexican cuisine is a complex and ancient cuisine, with techniques and skills developed over thousands of years of history. It is created mostly with ingredients native to Mexico, as well as those brought over by the Spanish conquistadors, with some new influences since then. Mexican cuisine has been influenced by its proximity to the US-Mexican border. For example, burritos were thought to have been invented for easier transportation of beans by wrapping them in tortillas for field labor.",
+      "duration": "2",
+      "price": "14",
+      "rating": 4.8,
+      "category": "Cooking",
+      "images": [
+        "https://images.pexels.com/photos/4958641/pexels-photo-4958641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2087748/pexels-photo-2087748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/12031396/pexels-photo-12031396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/8335336/pexels-photo-8335336.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"
+      ],
+      "date": 1666694807970,
+      "owner": {
+        "email": "test1@test.com",
+        "image": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Alphonso Russo",
+        "id": 1
+      },
+      "id": 4
+    },
+    {
+      "title": "Master English Grammar - Advanced Level",
+      "description": "English Language skills for IELTS, CAE, and CPE. Hundreds of exercises for TV shows included. Essays checked",
+      "about": "By the end of the course, your knowledge of English grammar will be deep enough to take on advanced exams, to watch US and UK TV, and to speak in a more complex way. Though accessible to intermediate students, the course delves into the details on many themes, for I have a passion for advanced grammar. I do not speak to my students slowly, as though they were pre-intermediate learners, so if that's the kind of course you are looking for, this one is not for you. Nonetheless, I do respond quickly to inquisitive students, so please join the fun if you are ready!",
+      "duration": "29",
+      "price": "120",
+      "rating": 4.5,
+      "category": "Languages",
+      "images": [
+        "https://img.freepik.com/foto-gratis/libro-ingles-descansando-sobre-mesa-espacio-trabajo_23-2149429594.jpg?w=1800&t=st=1666812212~exp=1666812812~hmac=44694eb4b88c87bfd0d739c6e2c9632e196f0033d4bb8fa7eabce258cda52b33",
+        "https://img.freepik.com/free-photo/young-english-teacher-doing-her-class-online_23-2149019784.jpg?w=1800&t=st=1666806247~exp=1666806847~hmac=9e17034d86644633cae2c4457c44d2f29eddb8a5b97570f922efe596d49ee84f",
+        "https://img.freepik.com/free-photo/english-teacher-doing-her-class-laptop_23-2149019771.jpg?w=1800&t=st=1666806291~exp=1666806891~hmac=9d018a0ab429704c9d4df21f8732d67848e81686a667f5457b92c20e199bd6ae",
+        "https://img.freepik.com/free-photo/front-view-girl-wearing-headphones_23-2149455148.jpg?w=1800&t=st=1666806563~exp=1666807163~hmac=959e8db0944de0751e62667b6cdcdab441654a8f037b83add1de84c5192950de"
+      ],
+      "date": 1666695388630,
+      "owner": {
+        "email": "test2@test.com",
+        "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Amélia Hansley",
+        "id": 2
+      },
+      "id": 5
+    },
+    {
+      "title": "Master the English Language",
+      "description": "A study of grammar, punctuation, and rhetoric. 196-page ebook included.",
+      "about": "By the end of the course, you will be able to identify and to explain the wide variety of phrases, clauses, and literary devices found in the literature. Armed with a precise comprehension of the sentence, you will develop not only a keen appreciation of the skill required to compose a work of fiction, but also a deep understanding of how to use the very same skills in your own written work.",
+      "duration": "18",
+      "price": "14",
+      "rating": 4.5,
+      "category": "Languages",
+      "images": [
+        "https://img.freepik.com/foto-gratis/libro-ingles-cuaderno-alto-angulo_23-2149440506.jpg?w=1800&t=st=1666811709~exp=1666812309~hmac=d94be77b4e871b65316464d1fa59d49a4547b0e8af7e5baa2faa018dda12624b",
+        "https://img.freepik.com/foto-gratis/libros-ingles-fondo-azul_23-2149440457.jpg?w=1800&t=st=1666811818~exp=1666812418~hmac=eee2cf5b611a65a732f2a780a5c7dbe71da858f8f1c49359c4cb9ccfa62275b5",
+        "https://img.freepik.com/vector-gratis/ilustracion-escuela-ingles-dibujada-mano_23-2149590561.jpg?w=1060&t=st=1666811639~exp=1666812239~hmac=e6da914b5afc1f2a5fa8a6f673d8cb39afea3a1853b4b44349b183743df1635b",
+        "https://img.freepik.com/foto-gratis/bodegon-surtido-libros-ingles_23-2149440473.jpg?w=1800&t=st=1666811776~exp=1666812376~hmac=9be8900fba203bbf618f7271f27d25543664359b1267fab5b3d4863fa2bc5041"
+      ],
+      "date": 1666695710261,
+      "owner": {
+        "email": "test2@test.com",
+        "image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Amélia Hansley",
+        "id": 2
+      },
+      "id": 6
+    },
+    {
+      "title": "Simple Basics of Personal Finance",
+      "description": "Learn The Fundamentals Of Your Personal Money and Finances Using Easy-To-Understand Language And Clear Examples",
+      "about": "In today's world, our personal financial health is vital.  This course explains the basics to help you understand what's involved and how everything works.  This also serves as an introduction to help relate personal finances to business finances.  Using common, everyday language and \"real world\" experience and examples, instructor Ron Trucks makes the concepts and principals for anyone to understand and relate to, regardless of your previous financial or math experience.",
+      "duration": "3",
+      "price": "11",
+      "rating": 4.3,
+      "category": "Personal Finance",
+      "images": [
+        "https://images.pexels.com/photos/4968648/pexels-photo-4968648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/4968631/pexels-photo-4968631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/3833052/pexels-photo-3833052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/5900132/pexels-photo-5900132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666696228696,
+      "owner": {
+        "email": "test3@test.com",
+        "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "John Laurier",
+        "id": 3
+      },
+      "id": 7
+    },
+    {
+      "title": "Master Your Money: 6 Steps to Financial Wellness",
+      "description": "Take control of your finances! Create an effective budget, pay off your debt, and start saving for the future.",
+      "about": "Do you ever ask yourself, what should I do with my money? Should I save it, pay off debt, or invest it?\n\nDo you ever look at your bank account and wonder - where did all of my money go?\n\nDo you look at your savings and think - how I am ever going to buy a home? Or retire someday?\n\nIf you said YES to even one of these questions, then this is the course for you.\n\nManaging your money is a skill you need to learn and practice. Unfortunately, most of us aren't taught this at home or at school. It’s something we learn mainly by trial and error, for good and for bad. As a result, many people today, regardless of income, live paycheck to paycheck.\n\nDoes this sound like you? If so, that’s ok, but know that you can 100% change that. This course is specifically designed to give you the tools and confidence you need to break the paycheck to paycheck cycle.",
+      "duration": "2",
+      "price": "120",
+      "rating": 4.2,
+      "category": "Personal Finance",
+      "images": [
+        "https://images.pexels.com/photos/7680637/pexels-photo-7680637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/4968659/pexels-photo-4968659.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "date": 1666696929735,
+      "owner": {
+        "email": "test3@test.com",
+        "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "John Laurier",
+        "id": 3
+      },
+      "id": 8
+    },
+    {
+      "title": "Value Investing Bootcamp: How to Invest Wisely",
+      "description": "Learn the Secrets of the Best Stock Investors, Manage Your Own Portfolio, And Earn Market Beating Returns",
+      "about": "\"An investment in knowledge pays the best interest.\" - Benjamin Franklin \n\nDo you want to learn the \"Investment Secrets\" of the greatest investors of all time? \n\nPeople interested in learning about investing drown in the never-ending waterfall of financial news and get-rich-quick schemes, they no longer know what works and what doesn't. This is why they miss focus and generally lose money. \n\nDo you ever get overwhelmed by this information overload? Do you ever feel lost in the jargon and the many strategies which the investing world has to offer? Then this course might be able to help you! ",
+      "duration": "5",
+      "price": "11",
+      "rating": 4.5,
+      "category": "Personal Finance",
+      "images": [
+        "https://planmoney.co.in/wp-content/uploads/2018/08/co_0715_short_1000-2-1000x675.jpg",
+        "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666697196903,
+      "owner": {
+        "email": "test3@test.com",
+        "image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "John Laurier",
+        "id": 3
+      },
+      "id": 9
+    },
+    {
+      "title": "Build Responsive Real-World Websites with HTML and CSS",
+      "description": "Learn modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid",
+      "about": "After finishing this course, you will know exactly how to build a beautiful, professional, and ready-to-launch website just like Omnifood, by following a 7-step process. And it will even look great on any computer, tablet, and smartphone.\n\nBut what if you want to build a completely different website? Well, no problem! I designed the course curriculum with exactly this goal: to enable you to design and build any website that you can think of, not just copy the course project.",
+      "duration": "38",
+      "price": "11",
+      "rating": 4.5,
+      "category": "Technology",
+      "images": [
+        "https://goodmockups.com/wp-content/uploads/2018/10/Free-Responsive-Website-Showcase-Mockup-PSD.jpg",
+        "https://wallpaperaccess.com/full/1631871.jpg",
+        "https://img.freepik.com/free-psd/website-presentation-mockup-isolated_359791-174.jpg?w=2000",
+        "https://res.cloudinary.com/practicaldev/image/fetch/s--qQdz0zTM--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/na8ek2bezzjnmay3goq8.png"
+      ],
+      "date": 1666697801271,
+      "owner": {
+        "email": "test4@test.com",
+        "image": "https://images.pexels.com/photos/2373220/pexels-photo-2373220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Rob Christensen",
+        "id": 4
+      },
+      "id": 10
+    },
+    {
+      "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+      "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+      "about": "React.js is THE most popular JavaScript library you can use and learn these days to build modern, reactive user interfaces for the web.\n\nThis course teaches you React in-depth, from the ground up, step by step by diving into all the core basics, exploring tons of examples and also introducing you to advanced concepts as well.\n\nYou'll get all the theory, tons of examples and demos, assignments and exercises and tons of important knowledge that is skipped by most other resources - after all, there is a reason why this course is that huge! :)\n\nAnd in case you don't even know why you would want to learn React and you're just here because of some ad or \"the algorithm\" - no worries: ReactJS is a key technology as a web developer and in this course I will also explain WHY it's that important!",
+      "duration": "49",
+      "price": "11",
+      "rating": 4.6,
+      "category": "Technology",
+      "images": [
+        "https://miro.medium.com/max/1200/1*smuMxL6qzvl-OUxTfuxHUg.jpeg",
+        "https://ecomm.design/wp-content/uploads/2016/11/Sisters-of-the-Black-Moon.jpg",
+        "https://www.pragma.com.co/hubfs/h_react.jpg",
+        "https://user-images.githubusercontent.com/67447840/136721118-cf5c59d2-31ff-4b06-86cb-262dd1b655fc.png"
+      ],
+      "date": 1666698427222,
+      "owner": {
+        "email": "test4@test.com",
+        "image": "https://images.pexels.com/photos/2373220/pexels-photo-2373220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Rob Christensen",
+        "id": 4
+      },
+      "id": 11
+    },
+    {
+      "title": "The Complete 2022 Web Development Bootcamp",
+      "description": "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps",
+      "about": "Welcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web developer. With 150,000+ ratings and a 4.8 average, my Web Development course is one of the HIGHEST RATED courses in the history of Udemy! \n\nAt 65+ hours, this Web Development course is without a doubt the most comprehensive web development course available online. Even if you have zero programming experience, this course will take you from beginner to mastery. Here's why:\n\nThe course is taught by the lead instructor at the App Brewery, London's leading in-person programming bootcamp.\n\nThe course has been updated to be 2022 ready and you'll be learning the latest tools and technologies used at large companies such as Apple, Google and Netflix.\n\nThis course doesn't cut any corners, there are beautiful animated explanation videos and tens of real-world projects which you will get to build.\n\nThe curriculum was developed over a period of four years, with comprehensive student testing and feedback.\n\nWe've taught over a million students how to code and many have gone on to change their lives by becoming professional developers or starting their own tech startup.\n\nYou'll save yourself over $12,000 by enrolling, but still get access to the same teaching materials and learn from the same instructor and curriculum as our in-person programming bootcamp.\n\nThe course is constantly updated with new content, with new projects and modules determined by students - that's you!",
+      "duration": "50",
+      "price": "125",
+      "rating": 4.9,
+      "category": "Technology",
+      "images": [
+        "https://img.freepik.com/premium-photo/smart-technology-global-network-element-this-image-are-furnished-by-nasa_123766-102.jpg?w=1800",
+        "https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://img.freepik.com/free-photo/coders-discussing-about-source-code-compiling-discovers-errors-asks-rest-team-explanations-front-multiple-screens-running-algorithms-software-developers-doing-teamwork_482257-41856.jpg?w=2000&t=st=1666807001~exp=1666807601~hmac=5fb1af652094d691ecdce455674c83e13f89d4c96fced30b068e9e034634d10d",
+        "https://img.freepik.com/free-photo/female-freelance-developer-coding-html-script-with-online-cloud-server-programming-firewall-security-learning-new-user-interface-terminal-window-with-code-language-application_482257-49869.jpg?w=1800&t=st=1666806957~exp=1666807557~hmac=5f8899ac6c7d2b14cca15d8b423ad021125163a41438ccb325288e6d5bcd0783"
+      ],
+      "date": 1666698950118,
+      "owner": {
+        "email": "test4@test.com",
+        "image": "https://images.pexels.com/photos/2373220/pexels-photo-2373220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Rob Christensen",
+        "id": 4
+      },
+      "id": 12
+    },
+    {
+      "title": "Firebase Authentication & Security Complete Guide",
+      "description": "Authenticate users with email, Google, Facebook, Twitter and Github. Learn Authorization by building a \"To do list\" app",
+      "about": "Authentication, the ability to create users and sign in to a website, can be tricky to set up. This course is designed to simplify the process and walk you through how to do it step by step.\n\nLearn how to authenticate users with email, Google, Facebook, Twitter, and Github. Users will also be able to reset their passwords or delete their accounts.\n\nAfter authenticating we will build a \"to-do list\" application that demonstrates how to store data related to the user. This is commonly referred to as authorization. In this app, the user will be able to save tasks for themselves and also view or mark them as complete.\n\nWhile learning authentication we also extend the app so you end up getting experience with a lot of the Firebase services. For instance, this course uses Firebase Storage for profile uploading, the Realtime Database for to-do list items and Firebase Hosting for a fully deployed live site.",
+      "duration": "8",
+      "price": "11",
+      "rating": 4.3,
+      "category": "Technology",
+      "images": [
+        "https://blockchainsimplified.com/blog/what-is-google-firebase/what-is-google-firebase-definition.png",
+        "https://cafedev.vn/wp-content/uploads/2019/11/cafedev_firebase_intruc.png",
+        "https://edteam-media.s3.amazonaws.com/courses/original/2b50db54-d6b6-4123-8e5a-afbd4f765741.jpg",
+        "https://www.nts-solutions.com/blog/wp-content/uploads/2022/05/database-3.png"
+      ],
+      "date": 1666699286783,
+      "owner": {
+        "email": "test4@test.com",
+        "image": "https://images.pexels.com/photos/2373220/pexels-photo-2373220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Rob Christensen",
+        "id": 4
+      },
+      "id": 13
+    },
+    {
+      "title": "Figma UI UX Design Essentials",
+      "description": "Use Figma to get a job in UI Design, User Interface, User Experience design, UX Design & Web Design",
+      "about": "Hi there - my name is Dan Scott & welcome to Figma Essentials.\n\nTogether - you and me - are going to learn everything you need to get started working as a UX Designer using Figma.\n\nWe’ll use this UI UX design tool to create beautiful User Interfaces and engaging prototypes. Most importantly... we'll cover the client expectations of you as a new UX designer.\n\nThis course is aimed at people new to design, new to User Experience design. Even if you’re not totally sure what UX really means, don’t worry. We’ll start right at the beginning and work our way through step by step.",
+      "duration": "3",
+      "price": "11",
+      "rating": 4.3,
+      "category": "Graphic design",
+      "images": [
+        "https://i.pinimg.com/originals/63/a7/b1/63a7b1894b3210d07e434e9d12170586.png",
+        "https://www.uikitsnow.com/wp-content/uploads/2018/10/gravity_shot2_4x.png",
+        "https://figmaelements.com/wp-content/uploads/2019/11/gift-shop-website-template.png",
+        "https://images.ctfassets.net/c1zhnszcah7h/1wCzoDBuv0WflxSXYHU3tF/c5af21a431b1ccf462931744bbb6bdf9/Square_How_Spotify_Works_in_Figma_Temp.png?w=960&q=96"
+      ],
+      "date": 1666699764580,
+      "owner": {
+        "email": "test5@test.com",
+        "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Julia Madison",
+        "id": 5
+      },
+      "id": 14
+    },
+    {
+      "title": "Complete Web & Mobile Designer",
+      "description": "Become a Designer in 2022! Master Mobile and Web Design, User Interface + User Experience (UI/UX Design), HTML, and CSS",
+      "about": "Just updated with all modern Design tools and best practices for 2022! Join a live online community of over 600,000+ students and a course taught by industry experts that have actually worked both in Silicon Valley and Toronto for top companies. A great Designer is becoming harder and harder to find and it isn't rare to find designers make $160,000+ salaries now because it is such a valuable skill. We will teach you how to get there!\n\nUsing the latest best practices in Web Design and Mobile Design as well as User Interface and User Experience Design (UI/UX), this course focuses on efficiently getting you from zero to a point where you can get hired or win freelance contracts. We will use in demand tools like Figma to show you a full workflow from start to finish. Graduates of Andrei’s courses are now working at Google, Tesla, Amazon, Apple, IBM, JP Morgan, Facebook, + other top tech companies.",
+      "duration": "10",
+      "price": "11",
+      "rating": 4.3,
+      "category": "Technology",
+      "images": [
+        "https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000&t=st=1666803886~exp=1666804486~hmac=5d29dece3491ca09fb2809a40bf6eff78ece428f21144a58a822ea38f4a3a602",
+        "https://i.pinimg.com/originals/ab/79/c8/ab79c89a9f27b0c631db193aa69c9961.png",
+        "https://micro-cdn.sumo.com/image-resize/sumo-convert?uri=https://media.sumo.com/storyimages/bfdccc0d-2073-4cc2-ad22-ab5f65f8971c&hash=c72ad43764943e51dd206e39fb12b04195f21d7dc17f767fd5885dbea217ce9b&format=webp",
+        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2021/07/Screenshot-2021-07-12-160240.png?auto=format&q=60&fit=max&w=930"
+      ],
+      "date": 1666700014635,
+      "owner": {
+        "email": "test5@test.com",
+        "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Julia Madison",
+        "id": 5
+      },
+      "id": 15
+    },
+    {
+      "title": "Adobe Illustrator Mega Course - From Beginner to Advanced",
+      "description": "Adobe Illustrator CC - Designed To Make You an Advanced Illustrator",
+      "about": "This Adobe Illustrator course is designed to take absolute beginners step by step into an advanced level in design and Illustration\n\nThe course consists of two-part the Basic part and Advanced part.\n\n- The basic part is just like a master class, in this part I will teach all the details you need to know to start using illustrate confidently. Basic does not mean you are not going to make interesting stuff, in this part, you will be creating a dozen of interesting artworks using what you have learnt",
+      "duration": "10",
+      "price": "120",
+      "rating": 4.7,
+      "category": "Graphic design",
+      "images": [
+        "https://cdn.dribbble.com/users/1022481/screenshots/18172104/media/d5564ce411348390ce796451ecdec4d2.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/17832681/media/d41ba99465b902407773399af0167278.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/11373736/media/84a0b53d082b9632c433564fc290e9c5.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/17343628/media/bc60f1c15c95665a94341ded27c2499d.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/16866309/media/e78c8abb3b09c143e9a3695b77629ed1.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/9938657/media/45524d286c764e9b5fc468c969c3e959.png?compress=1&resize=1600x1200&vertical=top",
+        "https://cdn.dribbble.com/users/1022481/screenshots/16043094/media/798831060e941f6b80f7dc34dbe43676.png?compress=1&resize=1600x1200&vertical=top"
+      ],
+      "date": 1666700158854,
+      "owner": {
+        "email": "test5@test.com",
+        "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Julia Madison",
+        "id": 5
+      },
+      "id": 16
+    },
+    {
+      "title": "Photography Masterclass: A Complete Guide to Photography",
+      "description": "Photography Masterclass: A Complete Guide to Photography",
+      "about": "This online photography course will teach you how to take amazing images and even sell them, whether you use a smartphone, mirrorless or DSLR camera.\n\nThis photography course is designed to teach you the ins and outs of photography, even if you have little to no experience with it, to help create profitable images that help you stand out from the crowd and sell.\n\nMaster Photography Techniques to Create Extraordinary Images!\n\nWhile there are plenty of digital photography courses that focus on specific styles or how to use gear, it's hard to find a comprehensive course like this one, which is for beginner to advanced photographers.\n\nThis course is designed for all levels of photographers who want to improve their skills, take stellar images, and make money with their photos - especially great for any DSLR or mirrorless camera user.",
+      "duration": "4",
+      "price": "11",
+      "rating": 4.6,
+      "category": "Photography",
+      "images": [
+        "https://images.pexels.com/photos/9494076/pexels-photo-9494076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/6054726/pexels-photo-6054726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/274973/pexels-photo-274973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/6606527/pexels-photo-6606527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1447259/pexels-photo-1447259.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/5430750/pexels-photo-5430750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/13827133/pexels-photo-13827133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666701174933,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 17
+    },
+    {
+      "title": "The Art of Black and White Photography",
+      "description": "Learn how to create dramatic and compelling black and white images using a range of powerful Photoshop techniques.",
+      "about": "Many of the most powerful, memorable and effective photographs are black and white images. With digital photography though you can no longer take a great black and white photograph... but you can create one using the black and white photography techniques taught in this course. So if you're confused about which black and white conversion techniques to use, unsure about how to adjust the tonal range and balance of your black and white photos using curves and masks want to make more of your black and white portraits and you want to learn how to tone your black and white images this course is for you. ",
+      "duration": "3",
+      "price": "120",
+      "rating": 4.5,
+      "category": "Photography",
+      "images": [
+        "https://images.pexels.com/photos/2981630/pexels-photo-2981630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/764880/pexels-photo-764880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2981630/pexels-photo-2981630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3447862/pexels-photo-3447862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3483971/pexels-photo-3483971.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/5217198/pexels-photo-5217198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/89095/pexels-photo-89095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666701371113,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 18
+    },
+    {
+      "title": "Composition in Photography from A to Z",
+      "description": "Master the composition of your photos, learn how to see the composition around, learn how to analyze your photography",
+      "about": "Hi! My name is Martha Lawson, I am an experienced photographer and my goal is to help you improve your photography skills. I have been a lecturer in different photography courses, I have spoken about photography on various exhibition openings. What I noticed in people is that they are always interested in how things work, how they really happen on the field. Why, for example there are some photos which are getting more popularity than others. The uniting theme here is composition. Composition is everywhere, it helps you structure one frame, it helps you take advantage of every detail you are surrounded by.\n\nDuring the course, I'll be explaining everything with my own photos. You will see that everything is possible, when you master the language of photography composition, of composition rules.\n\nWe will start with the basics - what BALANCE is, how to achieve it. From there on we'll move to the different composition rules - the Rule of Thirds, the Golden Ratio, the Golden Spiral, till we reach the point where we'll be doing overall composition analysis.\n\nAll of the time we will be analyzing photography - a really valuable skill a few people have. And a few photographers speak about, in fact, especially when it comes to analyzing their own photos.",
+      "duration": "6",
+      "price": "120",
+      "rating": 4.3,
+      "category": "Photography",
+      "images": [
+        "https://i.ytimg.com/vi/evCuApztgLk/maxresdefault.jpg",
+        "https://marcelaoutside.com/wp-content/uploads/2021/10/DSC_5481-Edit-1024x682.jpg",
+        "https://pbs.twimg.com/media/FT6IqKjXwAAlAxL.jpg",
+        "https://i0.wp.com/erickimphotography.com/blog/wp-content/uploads/2017/02/0-umbrella-lady-seoul-2009-leading-lineseric-kim-street-photography-mood-board-1-2.jpg?fit=2000%2C1333&ssl=1"
+      ],
+      "date": 1666701622744,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 19
+    },
+    {
+      "title": "Portrait Photography for Beginners",
+      "description": "You'll learn how to take better portraits with any camera in this complete portrait photography course.",
+      "about": "Welcome to the complete Portrait Photography for Beginners course!\n\nWe are so excited to help you take better portraits. If you're a relatively new photographer, this is the perfect portrait photography course to help you with this new skill!\n\nYou'll learn everything you need to know to take better portraits with any camera - DSLR, mirrorless, smartphone, or point-and-shoot. \n\nWHAT WILL YOU LEARN:\n\nStart with our 6 tips to photographing better portraits:\n\nChoose a better background and compose your shot\nLighting your portraits\nProperly and creatively expose your photo\nPlay with depth of field\nThink about colors\nInteracting and posing your subject\n\nYou'll learn portrait photography with real world demonstrations!",
+      "duration": "2",
+      "price": "11",
+      "rating": 4.4,
+      "category": "Photography",
+      "images": [
+        "https://images.pexels.com/photos/1933873/pexels-photo-1933873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1990241/pexels-photo-1990241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/6934325/pexels-photo-6934325.png?auto=compress&cs=tinysrgb&w=400",
+        "https://images.pexels.com/photos/141651/people-portrait-child-poverty-141651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2385044/pexels-photo-2385044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1750205/pexels-photo-1750205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/4156467/pexels-photo-4156467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666701960528,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 20
+    },
+    {
+      "title": "Street Photography for Beginners: Improve Your Photography",
+      "description": "This complete street photography course will help you capture beautiful moments from the street.",
+      "about": "Street photography is about making photograph in public places.\nTo capture the random incidents, the candid moments, or anything that’s pleasing to the eyes and fascinating to us with an attempt to instil an emotion, convey a message, or interpret a story with what our eyes see and what our hearts visualise.\n\nIn addition, Street photography makes traveling more purposeful and significant.\nIt makes us see the world with a broader perspective and greater interest.\nIt also makes us see the familiar everyday surroundings with a fresh new eye.",
+      "duration": "6",
+      "price": "11",
+      "rating": 5,
+      "category": "Photography",
+      "images": [
+        "https://mymodernmet.com/wp/wp-content/uploads/2017/12/dog-portraits-alan-schaller-12.jpg",
+        "https://images.pexels.com/photos/10264368/pexels-photo-10264368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/5084153/pexels-photo-5084153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/13340705/pexels-photo-13340705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/9325425/pexels-photo-9325425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/6016031/pexels-photo-6016031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.squarespace-cdn.com/content/v1/50783a3de4b0721a85bbddcf/1529520566500-3O2XO09CTBTQL0YX4S4N/Doug+Davey+7.jpg?format=1500w"
+      ],
+      "date": 1666702259767,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 21
+    },
+    {
+      "title": "Mobile Photography Iphone and Android Complete Masterclass",
+      "description": "The best Iphone and Android photography class: Master your phone photography and editing with Snapseed and Lightroom",
+      "about": "This Iphone and Android Mobile Photography for Instagram Masterclass will teach you how to take amazing images and take your instagram account to the next level. You will also learn the intricacies on Instagram's algorithm so you can multiply your followers and engagement score of your photos.\n\nThis photography course is designed for people of all levels of photography, whether you are just starting out or you have an eye for photography and just want to brush up your skills.\n\nThe way this course is designed will allow you to jump through the lessons that most interest you and get the benefits of the course regardless of your level of expertise.",
+      "duration": "4",
+      "price": "40",
+      "rating": 4.7,
+      "category": "Photography",
+      "images": [
+        "https://www.elgrupoinformatico.com/static/Noticias/2020/10/trucos-foto-movil-1200x675.jpg",
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/iphone-photography-tips-1659367867.jpg?crop=1.00xw:0.753xh;0,0.120xh&resize=640:*",
+        "https://images.pexels.com/photos/6603669/pexels-photo-6603669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://i0.wp.com/lovehardtraveloften.com/wp-content/uploads/2020/11/general-iphone-photography-tips.jpg?fit=819%2C1024&ssl=1",
+        "https://www.brandsynario.com/wp-content/uploads/2019/01/Shot-On-iPhone.jpg",
+        "https://images.pexels.com/photos/9789459/pexels-photo-9789459.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+        "https://images.pexels.com/photos/4522906/pexels-photo-4522906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1666703157824,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 22
+    },
+    {
+      "title": "Wedding Photography: Complete Guide to Wedding Photography",
+      "description": "Learn exactly how to become a wedding photographer, start a photo business of your own, and shoot better wedding photos.",
+      "about": "You're here because you want to become a wedding photographer, right?\n\nGreat idea, my friend. \n\nAverage wedding photographers make over $3,000 per wedding. Great photographers can make $10,000+ per wedding. And money isn't the only reason to be a wedding photographer. It is an important job that helps capture a beautiful day and preserve memories for a lifetime.",
+      "duration": "8",
+      "price": "120",
+      "rating": 4.3,
+      "category": "Photography",
+      "images": [
+        "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/265791/pexels-photo-265791.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "date": 1666703523779,
+      "owner": {
+        "email": "test6@test.com",
+        "image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "name": "Martha Lawson",
+        "id": 6
+      },
+      "id": 23
+    },
+    {
+      "title": "Hello React! React Training for JavaScript Beginners",
+      "description": "The Simplest Way to Learn React for Beginners - Line by Line with No Steps Skipped",
+      "category": "Technology",
+      "about": "Welcome to Hello React. This is aimed towards those who are new to JavaScript development and while you may not have mastered JavaScript you want to learn more about using the React library. React has a steep learning curve for new developers. If you have found yourself quickly overwhelmed by the React Docs or other React tutorials then this is the course for you. This isn't the only React course you should take but it should be your first.\n\nIf you are an experienced developer. This course is too easy for you. Please don't take it. This course is for people who are new to programming. This isn't for experienced coders changing from one coding language to another or for experienced JavaScript developers looking to pick up a new framework. ",
+      "duration": "4",
+      "price": "11",
+      "rating": 4.8,
+      "images": [
+        "https://images.ctfassets.net/aq13lwl6616q/2gqVi4hhjq9vgvdh63UoKZ/c763c6f7e98a80eb2800bbe5eb9d690d/react_native_zero_to_mastery.png",
+        "https://blog.hubspot.com/hubfs/GettyImages-1177482693.jpg",
+        "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "https://s3.amazonaws.com/creativetim_bucket/products/170/original/opt_nuk_react_thumbnail.jpg?1563782899"
+      ],
+      "date": 1671895789571,
+      "owner": {
+        "email": "test11@test.com",
+        "name": "Mercy Burke",
+        "image": "https://images.pexels.com/photos/3765147/pexels-photo-3765147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "11"
+      },
+      "id": 24
+    },
+    {
+      "title": "Git by Example",
+      "description": "Learn Git for teamwork and error control, in the terminal and a visual interface",
+      "category": "Technology",
+      "about": "Git is an essential skill for all team members of a technology company. In order to survive, technology companies are increasingly depending on continuous delivery to give customers a better experience. Git or other methods of Version Control are necessary in order to do this.\n\nGit is necessary for teamwork, organisation, and management of projects. It is much easier to work when all team members can immediately see code changes and can follow what others have done. \n\nIt’s difficult to go wrong with Git. You can always roll back if someone deletes code, changes the structure of your project, or sends out incomplete code. Everyone makes mistakes, but when using Git properly, no mistake is fatal. \n\nToday we will make sure you get familiar, understand, and then master the extremely popular Version Control system called Git. This was originally used in the Linux project, so it is lightweight, but able to cope with the largest of projects.",
+      "duration": "7",
+      "price": "20",
+      "rating": 4.3,
+      "images": [
+        "https://www.hostinger.web.tr/rehberler/wp-content/uploads/sites/6/2017/05/github-kullanimi-basit-git-komutlari-1.png",
+        "https://wallpapercave.com/wp/wp3082327.png",
+        "https://www.getdbt.com/ui/img/guides/analytics-engineering/git-workflow-1.png",
+        "https://matob.web.id/random/wp-content/uploads/sites/2/2021/12/GitHub.jpg"
+      ],
+      "date": 1671896561141,
+      "owner": {
+        "email": "test11@test.com",
+        "name": "Mercy Burke",
+        "image": "https://images.pexels.com/photos/3765147/pexels-photo-3765147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "11"
+      },
+      "id": 25
+    },
+    {
+      "title": "Docker & Kubernetes: The Complete Practical Guide",
+      "description": "Complete Docker and Kubernetes Course - learn all core Docker features including Dockerfiles and Docker Compose",
+      "category": "Technology",
+      "about": "Learn how to create different containers like Node.js, Python, Wordpress, MongoDB, MySQL, Redis, Elasticsearch and much more.\n\nBecome a master of Docker and Kubernetes by understanding and practicing their main features.\n\nAll project files are available in the GitHub repository.\n\nWe will start by installing Docker on your computer - MacOS, Windows or Linux. On MacOS and Windows you will install Docker Desktop, on Linux you will install Docker Engine.\n\nAfterwards we will jump into tons of practice activities and use different Docker features. You will pull different docker images and run multiple containers using them.",
+      "duration": "21",
+      "price": "151",
+      "rating": 4.2,
+      "images": [
+        "https://wallpapercave.com/wp/wp8114669.jpg",
+        "https://images.clickittech.com/2020/wp-content/uploads/2022/07/14164725/Docker-use-cases-diagram-45.jpg",
+        "https://www.cloudsigma.com/wp-content/uploads/How-To-Share-Data-between-Docker-Containers-01.jpg",
+        "https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/06/cloud-services-isometric-composition-with-big-cloud-computing-infrastructure-elements-connected-with-dashed-lines-vector-illustration_1284-30495-1.webp?fit=740%2C629&ssl=1"
+      ],
+      "date": 1671896927265,
+      "owner": {
+        "email": "test11@test.com",
+        "name": "Mercy Burke",
+        "image": "https://images.pexels.com/photos/3765147/pexels-photo-3765147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "11"
+      },
+      "id": 26
+    },
+    {
+      "title": "Complete Guitar Lessons System - Beginner to Advanced",
+      "description": "All-in-one Guitar Course, Fingerstyle Guitar, Blues Guitar, Acoustic Guitar, Electric Guitar & Fingerpicking Guitarra",
+      "category": "Music",
+      "about": "Would You Like to Eliminate Every Struggle That You Are Faced With When Starting to Play Guitar?\nThis course is your \"Ticket\" to playing guitar.  It is the most direct and to the point complete online guitar course.",
+      "duration": "4",
+      "price": "11",
+      "rating": 4.8,
+      "images": [
+        "https://images.pexels.com/photos/2118045/pexels-photo-2118045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1010518/pexels-photo-1010518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/2118046/pexels-photo-2118046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/12544/pexels-photo-12544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1671907962189,
+      "owner": {
+        "email": "test7@test.com",
+        "name": "Aaron Philips",
+        "image": "https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "7"
+      },
+      "id": 27
+    },
+    {
+      "title": "Pure Pentatonic Power: Rock and Blues Lead Guitar Course",
+      "description": "18 Guitar Licks using Pentatonic and Blues Scales. Jam Tracks at 3 speeds. Tab on screen and Twin HD Camera Angles",
+      "category": "Music",
+      "about": "Are you stuck in that one Pentatonic box on the guitar? Is it comfortable because you feel safe there?\n\nThis Bestselling Course includes re-shot HD Video with twin camera angles, tab on screen and printable, professional quality audio, multi speed jam tracks and a new bonus section. Pure Pentatonic Power is a series of digestible guitar lessons designed to take the stress out of learning scales. It aims to help you and use them to construct guitar solos. It is gently paced and well structured,  first teaching all the shapes for Pentatonic and Blues Scales, and then applying them to 5 Rock/Blues guitar Jam tracks in different keys.",
+      "duration": "12",
+      "price": "50",
+      "rating": 4,
+      "images": [
+        "https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/3374197/pexels-photo-3374197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/5118495/pexels-photo-5118495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "https://images.pexels.com/photos/1864653/pexels-photo-1864653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      ],
+      "date": 1671908097496,
+      "owner": {
+        "email": "test7@test.com",
+        "name": "Aaron Philips",
+        "image": "https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "7"
+      },
+      "id": 28
+    },
+    {
+      "title": "3 Minute French - Course 1 | Language lessons for beginners",
+      "description": "Learn to speak French you can use in everyday real-world situations - all in just 3-minute chunks!",
+      "category": "Languages",
+      "about": "There is nothing more thrilling than being able to speak to the locals in their own language when you visit a foreign country. Well, now you can experience that amazing feeling too!\n\nMy name is Emily and I’ve been teaching foreign languages in my hometown for over fifteen years. I love languages, I love learning and I love teaching. I also love chocolate, but this isn’t really the place to discuss my chocoholism!\nI created 3 Minute French as a way to make learning French easier than ever before and accessible to anybody, especially people who have tried and failed in the past. My course is perfect for the complete beginner as I break down the French language into tiny chunks that I show you how to build back together again in a logical, simple to understand way. You can go from knowing no French at all to putting together your own sentences in just a few minutes. ",
+      "duration": "6",
+      "price": "11",
+      "rating": 4,
+      "images": [
+        "https://d37sy4vufic209.cloudfront.net/website/_next/static/dynamic/2781b120e1521e16e89366ed1b3a42f2/700.jpg",
+        "https://images.pexels.com/photos/5781917/pexels-photo-5781917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://www.almrsal.com/wp-content/uploads/2019/04/مميزات-اللغة-الفرنسية.jpg",
+        "https://edraak-marketing-uploads.edraak.org/Courses/French-1.png"
+      ],
+      "date": 1671911372216,
+      "owner": {
+        "email": "test8@test.com",
+        "name": "Emily Duplantier",
+        "image": "https://images.pexels.com/photos/3273969/pexels-photo-3273969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "8"
+      },
+      "id": 29
+    },
+    {
+      "title": "Practice and Perfect your French - Intermediate Level",
+      "description": "100% in French - Improve your 4 CECR skills and master the main past tenses with NATIVE French teacher",
+      "category": "Languages",
+      "about": "If you have reached this page, you probably want to learn French, not English! Bonne nouvelle, this course is 100% in French, mostly with videos, created and presented by Anne Le Grand, an experienced native teacher.\n\nWhatever your objective or level in French, mastering the past tenses is vital to communicate.\n\nIn this course you will learn how to use the 3 main past tenses in French: the imperfect, the passé-composé and the plus-que-parfait. You will be able to evoke memories, speak about work experiences and understand news stories, or just express past events accurately.\n\nMaster each tense individually in context and learn how to use them together in this French immersive course.",
+      "duration": "2",
+      "price": "11",
+      "rating": 4.6,
+      "images": [
+        "https://img.freepik.com/premium-vector/learning-french-language-cartoon-tiny-student-people-learn-french-using-app-smartphone-white_109722-1147.jpg?w=2000",
+        "https://teachmag.com/wp-content/uploads/2021/07/Jul-Aug2021_FSL_notitle.png",
+        "https://ihuruguay.com.uy/storage/app/uploads/public/601/484/da3/601484da3afcf656125164.jpg",
+        "https://frenchclass.com/wp-content/uploads/2021/01/image.png"
+      ],
+      "date": 1671911810235,
+      "owner": {
+        "email": "test8@test.com",
+        "name": "Emily Duplantier",
+        "image": "https://images.pexels.com/photos/3273969/pexels-photo-3273969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "8"
+      },
+      "id": 30
+    },
+    {
+      "title": "The Most Comprehensive Sushi Course Online",
+      "description": "40+ Engaging Videos Showing You How to Make Sushi with Step by Step Instructions Taught by a Pro",
+      "category": "Cooking",
+      "about": "This is the Sushi Course you want if you're just starting out. The lectures have been systematically designed and ordered from Basic to Advance for a more fluid learning experience. This is by far, the most comprehensive sushi course ever put together online, and it's designed to show you how to make sushi in your own kitchen with lessons taught by a professional sushi chef.\n\nMany of the methods are taught in a practical way for those learning in a home setting. It’s also an excellent guide for those considering apprenticing as a sushi chef and want to gain some exposure first. Once you have completed this course, you’ll be able to create your own sushi using a wide variety of ingredients. The possibilities are endless. ",
+      "duration": "6",
+      "price": "80",
+      "rating": 0,
+      "images": [
+        "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/7248707/pexels-photo-7248707.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/1199980/pexels-photo-1199980.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+        "https://images.pexels.com/photos/858501/pexels-photo-858501.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+      ],
+      "date": 1671923418541,
+      "owner": {
+        "email": "test10@test.com",
+        "name": "Lilliana Shawn",
+        "image": "https://images.pexels.com/photos/6578889/pexels-photo-6578889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "10"
+      },
+      "id": 31
+    },
+    {
+      "title": "Eat Real Food: How to Eat a Whole Food, Plant-Based Diet",
+      "description": "Learn how to be a healthy vegan or vegetarian in a holistic way for best health, weight, and wellbeing.",
+      "category": "Cooking",
+      "about": "Eat Real Food takes you on a journey of creating a solid foundation for life to know what plant foods to eat and why.\n\nWhat you choose to put on your plate and into your body each day plays one of the most important roles in creating your health, weight, energy, and wellbeing. Not only that, but today, what you choose to eat has a direct impact on our healthcare, environment, and entire society. We cast our vote most effectively for the kind of world we want to have by what we spend our money on and what we choose to eat. When you make the choice to eat whole plant foods, you are making the choice to not only help yourself, but help other humans, animals, and our entire Earth.",
+      "duration": "8",
+      "price": "60",
+      "rating": 0,
+      "images": [
+        "https://images.pexels.com/photos/1640769/pexels-photo-1640769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/248509/pexels-photo-248509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/286283/pexels-photo-286283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "date": 1671924365408,
+      "owner": {
+        "email": "test10@test.com",
+        "name": "Lilliana Shawn",
+        "image": "https://images.pexels.com/photos/6578889/pexels-photo-6578889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "id": "10"
+      },
+      "id": 32
+    }
+  ],
+  "users": [
+    {
+      "name": "Alphonso Russo",
+      "profession": "Professional Chef & Content Creator",
+      "about": "Hi there! Im Alphonso, nice to meet you! Im origined from Apulia region, in Southern Italy, where I learned my trade in the kitchen at my parents restaurant on the shores of the Adriatic Sea. My culinary journey taked me to Italy, France, USA, China and Indonesia. My true passion is cooking, I belong in the kitchen and I want to share this love with you!",
+      "email": "test1@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://living.medicareful.com/images/posts/cooking-for-beginners-cooking-techniques-and-tips.jpg",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 1
+    },
+    {
+      "name": "Amélia Hansley",
+      "profession": "English Teacher & Tutor",
+      "about": "Amélia is an English language instructor in the United States. She is TEFL certified and has been teaching English since 2008. She has helped over 29,000 students worldwide improve their English and hopes to help you as well. She understands the struggle of trying to learn a new language which is why she always tries to make her lessons interactive and yet full of valuable content so you can improve as quickly as possible.",
+      "email": "test2@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://img.freepik.com/foto-gratis/libro-ingles-descansando-sobre-mesa-espacio-trabajo_23-2149429594.jpg?w=1800&t=st=1666812212~exp=1666812812~hmac=44694eb4b88c87bfd0d739c6e2c9632e196f0033d4bb8fa7eabce258cda52b33",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 2
+    },
+    {
+      "name": "John Laurier",
+      "profession": "Economist & Financial Well-Being Specialist",
+      "about": "Over 15 years ago, after building his experience in the hospitality industry and working with business start-ups around the country, John founded his privately owned firm guiding and coaching small businesses and non-profit organizations in a wide variety of fields and industries both in his hometown of St. Louis, MO and across the country.",
+      "email": "test3@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/259165/pexels-photo-259165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 3
+    },
+    {
+      "name": "Rob Christensen",
+      "profession": "Software Engineer & Engineering Manager",
+      "about": "Starting out at the age of 12 I never stopped learning new programming skills and languages. Early I started creating websites for friends and just for fun as well. Besides web development I also explored Python and other non-web-only languages. This passion has since lasted and lead to my decision of working as a freelance web developer and consultant. The success and fun I have in this job is immense and really keeps that passion burningly alive.",
+      "email": "test4@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/2373220/pexels-photo-2373220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://img.freepik.com/premium-photo/smart-technology-global-network-element-this-image-are-furnished-by-nasa_123766-102.jpg?w=1800",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 4
+    },
+    {
+      "name": "Julia Madison",
+      "profession": "Illustrator and Author",
+      "about": "Julia's artwork is most known for its bright pops of color, vibrant typography, and a blend of hand-painted brushwork and clean vector illustrations. She illustrates in a variety of mediums, including digital, watercolor, ink and gouache. Her watercolor paintings typically incorporate bright pops of color, vibrant typography, and hand-done brushwork. ",
+      "email": "test5@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://cdn.dribbble.com/users/1022481/screenshots/17832681/media/d41ba99465b902407773399af0167278.png?compress=1&resize=1600x1200&vertical=top",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 5
+    },
+    {
+      "name": "Martha Lawson",
+      "profession": "Professional Photographer & Content Creator",
+      "about": "Martha was born in New York and although her background is in philosophy, she has turned her love for photography into a career. Her portfolio contains a wide range of different clients, including actors and actresses, musicians, jewelry brands, and theaters.",
+      "email": "test6@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/6606527/pexels-photo-6606527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 6
+    },
+    {
+      "name": "Aaron Philips",
+      "profession": "Guitarist & Music Tutor",
+      "about": "Aaron has been playing/teaching guitar for nearly 30 years. By personally teaching 100s of one-on-one students and 1000s of guitar lessons within the last 30+ years Aaron has proven to maximize any students' results by providing them with the clearest step-by-step system to playing guitar.",
+      "email": "test7@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/374109/pexels-photo-374109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 7
+    },
+    {
+      "name": "Emily Duplantier",
+      "profession": "French Teacher",
+      "about": "Hi! My name is Elisa, I am from France and currently living in France. I have a few experiences in teaching french.I taught French for a few weeks in Croatia, voluntarily, to local children. Then, I did a one-year volunteering project in Romania, also about teaching French. The public was people with fewer opportunities and local young people, from 5 to 18 years old. I worked in schools, in youth centers, and during specific events. I worked essentially offline but I have some online experiences as well. I love to share my knowledge and experiences, and it was very important for me to give this opportunity to anyone",
+      "email": "test8@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/3273969/pexels-photo-3273969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/11429078/pexels-photo-11429078.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 8
+    },
+    {
+      "name": "Dexter Lofland",
+      "profession": "Award-winning Filmmaker, Photographer & Tutor",
+      "about": "",
+      "email": "test9@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/4170565/pexels-photo-4170565.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [
+        "12"
+      ],
+      "saved_courses": [
+        "12"
+      ],
+      "enrolled": [],
+      "following": [],
+      "id": 9
+    },
+    {
+      "name": "Lilliana Shawn",
+      "profession": "Professional Chef & Content Creator",
+      "about": "Liliana is a contemporary chef, who was born in Rome, Italy. Since a young age his influences and creation for his food have been inspired by both his grandparents. One grandparent being underprivileged and the other very wealthy , it gave him the flexibility to cook with both little basic food and more sophisticated,unusual ingredient",
+      "email": "test10@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/6578889/pexels-photo-6578889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 10
+    },
+    {
+      "name": "Mercy Burke",
+      "profession": "Software Engineer & Tutor",
+      "about": "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products",
+      "email": "test11@test.com",
+      "password": "test",
+      "profile_image": "https://images.pexels.com/photos/3765147/pexels-photo-3765147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "profile_background": "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "wishlist": [],
+      "saved_courses": [],
+      "enrolled": [],
+      "following": [],
+      "id": 11
+    }
+  ]
+}

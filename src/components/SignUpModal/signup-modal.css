@@ -1,0 +1,54 @@
+.signup-modal-container{
+    display: flex;
+}
+
+.signup-modal-container .modal-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px 25px 40px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    gap: 20px;
+}
+
+.signup-modal-container h4{
+    font-size: 25px;
+    color: rgb(32, 34, 44);
+}
+
+#dark .signup-modal-container h4{ 
+    color: white;
+    margin-bottom: 8px;
+}
+
+.modal-banner, .modal-banner img {
+    width: 320px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.modal-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.signup-modal-container button{
+    background-color: rgb(231, 40, 40);
+}
+
+#dark .signup-modal-container button:hover{
+    background-color: rgb(231, 40, 40);
+}
+
+.signup-modal-container .modal-header {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-sugest {
+    text-align: center;
+    font-size: 12px;
+}

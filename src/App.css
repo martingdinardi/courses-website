@@ -1,0 +1,43 @@
+body {
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* .App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 20px 200px;
+}
+
+.App#dark {
+  background-color: rgb(20, 21, 28);
+  color: white;
+  transition: 0.2s;
+}
+
+.App#light {
+  transition: 0.2s;
+  background-color: #fff;
+  color: rgb(32, 34, 44);
+}
+
+a {
+  color: rgb(23, 24, 24);
+  text-decoration: none;
+}
+
+#dark a {
+  color: aliceblue;
+  text-decoration: none;
+}

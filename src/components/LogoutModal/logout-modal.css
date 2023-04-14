@@ -1,0 +1,28 @@
+.logout-modal {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+}
+
+#dark .logout-modal{
+    background-color: rgb(32, 34, 44);
+}
+
+.logout-modal p{
+    width: 130px;
+    align-self: center;
+}
+
+.logout-modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logout-modal-buttons button{
+    background-color: rgb(53, 56, 71);
+}

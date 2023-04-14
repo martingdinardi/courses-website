@@ -1,0 +1,49 @@
+.user-menu {
+  width: fit-content;
+  position: absolute;
+  right: 40px;
+  top: 85px;
+  z-index: 9;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#dark .user-menu {
+  background-color: rgb(32, 34, 44);
+}
+
+.user-menu-list img {
+  width: 14px;
+}
+
+#dark .user-menu-list img {
+  filter: invert(1);
+}
+
+ul.user-menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 14px;
+}
+
+.user-menu-list li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 50px;
+  margin: 5px 0;
+}
+
+.user-menu-list li:hover {
+  background-color: rgb(194, 41, 41);
+  color: white;
+}
+
+.user-menu-list li:hover img{
+    filter: invert(1);
+}
+
+.user-menu-logout {
+  cursor: pointer;
+}

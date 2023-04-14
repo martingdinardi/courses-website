@@ -1,0 +1,16 @@
+.course-price-modal {
+    position: fixed;
+    top: 50px;
+    right: 70px;
+    width: 30%;
+}
+
+.course-price-modal .course-page-price{
+    width: auto;
+    animation: fadeIn .3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

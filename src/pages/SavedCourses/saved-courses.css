@@ -1,0 +1,33 @@
+.saved-courses-container{
+    /* min-height: 65vh; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.saved-courses-container .layout-main{
+min-height: 70vh;
+}
+
+.saved-courses-container .course-card {
+    display: flex;
+    width: 440px;
+}
+/* 
+.saved-courses-container .course-card .course-card-body{
+    padding: 0 10px;
+} */
+
+.saved-courses-container .course-card-image {
+    width: 150px;
+    height: 100px;
+}
+
+.saved-courses-container .course-description, .saved-courses-container .course-card .course-card-body .course-title{
+    min-height: 0px;
+}
+
+.saved-courses-container .course-owner{
+    display: none;
+}

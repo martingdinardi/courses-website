@@ -1,0 +1,27 @@
+.button {
+  padding: 15px;
+  background-color: rgb(32, 34, 44);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.button:hover {
+  background-color: rgb(194, 41, 41);
+  color: white;
+  transition: 0.2s;
+}
+
+.button img {
+  width: 15px;
+  filter: invert(1);
+}

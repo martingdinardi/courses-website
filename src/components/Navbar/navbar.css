@@ -1,0 +1,110 @@
+.navbar {
+  background-color: white;
+  height: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 0 120px;
+  transition: 0.5s;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-header{
+  display: flex;
+  gap: 30px;
+}
+
+#dark .navbar {
+  background-color: rgb(32, 34, 44);
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar__logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__logo img {
+  width: 43px;
+}
+
+#dark .navbar__logo img {
+  filter: invert(1);
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  display: inline-block;
+  cursor: pointer;
+  /* font-weight: 800; */
+  font-size: 17px;
+}
+
+.navbar .navbar__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .navbar__buttons .navbar_buttons_signup {
+  background-color: rgb(231, 40, 40);
+  color: white;
+}
+
+.navbar .navbar_buttons_login{
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+
+#dark .navbar_buttons_login{
+  color: white;
+}
+
+#dark .navbar .navbar_buttons_login:hover, .navbar .navbar_buttons_login:hover{
+  color: red;
+}
+
+.sign-up-button{
+  margin: 20px 0 0 0;
+}
+
+.navbar .modal-container{
+  width: 300px;
+}
+
+.navbar_usercard_img_container {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.navbar_usercard_img_container .wishlist_img{
+  width: 23px;
+  cursor: pointer;
+}
+
+.navbar_usercard_img_container a{
+  display: flex;
+}
+
+#dark .navbar_usercard_img_container .wishlist_img{
+  filter: invert(100%) sepia(94%) saturate(23%) hue-rotate(1deg) brightness(106%) contrast(106%);
+}
+
+.navbar_usercard_img_container .saved_courses_img{
+  width: 20px;
+}
+
+#dark .navbar_usercard_img_container .saved_courses_img{
+  filter: invert(1);
+}

@@ -1,0 +1,58 @@
+.usercard_container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 280px;
+  padding: 15px 0;
+  background: #ffedd7;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 1px rgb(0 0 0 / 40%);
+}
+
+#dark .usercard_container_dark {
+  background-color: rgb(48, 51, 67);
+  transition: 0.2s;
+}
+.usercard_img_container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usercard_img {
+  width: 55px;
+  border-radius: 50%;
+  height: 55px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.usercard_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.usercard_info_detail {
+  display: flex;
+  align-items: flex-start;
+  font-size: 13px;
+  gap: 3.5px;
+}
+
+.usercard_info_detail img {
+  width: 12px;
+}
+
+.course-page-owner-info-text {
+  color: rgb(32, 34, 44) !important;
+}
+
+#dark .course-page-owner-info-text {
+  color: whitesmoke !important;
+}
+
+.course-page-owner-info-icon img{
+  filter: invert(1);
+}

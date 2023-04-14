@@ -1,0 +1,15 @@
+.reset-database-modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reset-database-button{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* body{
+    overflow: hidden;
+  } */
