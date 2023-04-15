@@ -24,7 +24,6 @@
 
 .footer-developer-sign-logo{
     display: flex;
-    /* flex-direction: column; */
     gap: 20px;
     align-items: center;
 }

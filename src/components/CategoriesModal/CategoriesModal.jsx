@@ -86,5 +86,3 @@ function CategoriesModal({visibleCategoriesModal, setVisibleCategoriesModal}) {
 }
 
 export default CategoriesModal;
-
-//${randomCourse.images[1]}

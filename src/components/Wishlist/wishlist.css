@@ -12,7 +12,6 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 15px;
   animation: fadeIn 0.25s ease-in-out;
 }
@@ -52,7 +51,6 @@ width: 33px;
 
 .wishlist-title .wishlist_img {
   width: 23px;
-  /* cursor: pointer; */
 }
 
 #dark .wishlist-title .wishlist_img {
@@ -66,7 +64,7 @@ width: 33px;
   gap: 12px;
   cursor: pointer;
   height: 82px;
-  background: #e96443; /* fallback for old browsers */
+  background: #e96443;
   background: -webkit-linear-gradient(
     to right,
     #904e95,
@@ -79,18 +77,6 @@ width: 33px;
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
-
-/* #dark .wishlist__course {
-  background: rgb(32, 34, 44) !important;
-} */
-
-/* #dark .wishlist__course {
-  background-color: rgb(32, 34, 44);
-} */
-
-/* .wishlist__course:hover{
-  margin: 0 0 5px 0;
-} */
 
 .wishlist-course__img {
   width: 30%;

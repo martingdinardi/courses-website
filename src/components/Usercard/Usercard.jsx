@@ -15,8 +15,6 @@ function Usercard({user}) {
   const location = useLocation();
   const pagePath = location.pathname.split("/")[1];
 
-  // console.log(pagePath);
-
   return (
     <>
       <div className="course-page-course-owner">
@@ -36,11 +34,12 @@ function Usercard({user}) {
                       user.email === loggedUser.email ? "" : <Button description="+Follow" />
                       : ""
                     }
-
+                    <div className="course-page-course-owner-info-socialmedia-icons">
                     <img src={blissIcon} alt="Bliss Logo" />
                     <img src={twitterIcon} alt="Twitter Logo" />
                     <img src={instagramIcon} alt="Instagram Logo" />
                     <img src={linkedinIcon} alt="Linkedin Logo" />
+                    </div>
                   </div>
                 </div>
               </div>

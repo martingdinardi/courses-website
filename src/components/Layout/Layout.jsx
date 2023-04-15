@@ -10,8 +10,6 @@ function Layout({children}) {
   const location = useLocation();
   const path = location.pathname.split("/")[1];
 
-  // console.log(path);
-
   return (
     <>
     <Navbar links={["Categories", "Blog", "PRO"]}/>

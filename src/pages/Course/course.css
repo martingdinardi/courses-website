@@ -16,7 +16,6 @@
 }
 
 .course-page-info {
-  /* max-width: 750px; */
   width: 65%;
 }
 
@@ -71,8 +70,8 @@
 
 .course-page-trailer p:hover {
   background: -webkit-linear-gradient(rgb(255, 25, 0), rgb(183, 65, 183));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .course-page-about {
@@ -102,7 +101,6 @@
 }
 
 .course-page-course-owner {
-  /* border-top: 1px solid lightgray; */
   padding: 40px 0;
   display: flex;
   gap: 20px;
@@ -154,7 +152,10 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  /* margin-top: 5px; */
+}
+
+#course-page-price-responsive{
+  display: none;
 }
 
 .course-page-price-elements {
@@ -185,7 +186,6 @@
 }
 
 .course-page-price-button .button {
-  /* background-color: #00b2bd; */
   background: #e96443; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -233,12 +233,12 @@
   filter: invert(1);
 }
 
-.course-page-header__title-and-saved_courses img{
+.course-page-header__title-and-saved_courses img {
   width: 21px;
   cursor: pointer;
 }
 
-#dark .course-page-header__title-and-saved_courses img{
+#dark .course-page-header__title-and-saved_courses img {
   filter: invert(1);
 }
 
@@ -247,6 +247,43 @@
   justify-content: space-between;
 }
 
-.course-page-header__title-and-saved_courses .course-page-header-title{
+.course-page-header__title-and-saved_courses .course-page-header-title {
   max-width: 90%;
+}
+
+@media screen and (max-width: 540px) {
+  .layout-main {
+    padding: 0 20px;
+  }
+  .course-page-imgs-carousel img {
+    width: 50%;
+  }
+  .course-page-course-owner-info-socialmedia {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .layout-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .course-page-price {
+    display: none;
+  }
+
+  .course-page-container {
+    display: initial;
+  }
+  .course-page-info {
+    width: initial;
+  }
+  #course-page-price-responsive, #course-page-price-responsive .course-page-price-elements{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
 }

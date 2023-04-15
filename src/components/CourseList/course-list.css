@@ -12,7 +12,6 @@
 
 .course-card {
   background: #fff;
-  /* border-radius: 10px; */
   box-shadow: 0px 3px 5px 1px rgb(0 0 0 / 40%);
   width: 250px;
   margin: 10px 0;
@@ -31,8 +30,6 @@
 }
 
 .course-card .course-card-image img {
-  /* border-top-left-radius: 10px; */
-  /* border-top-right-radius: 10px; */
   height: inherit;
   object-fit: cover;
 }
@@ -103,4 +100,30 @@
 
 #dark .courses-list-title img {
   filter: invert(1);
+}
+
+@media screen and (max-width: 515px) {
+
+  .course-card{
+    display: initial !important;
+  }
+  .saved-courses-container .course-card-image{
+    width: initial !important;
+  }
+
+  .saved-courses-container .course-card{
+    width: initial !important;
+  }
+
+  .courses-list-title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courses-list-title-description p{
+    text-align: justify;
+  }
+  .course-card-list {
+    justify-content: center;
+  }
 }

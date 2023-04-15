@@ -11,8 +11,6 @@ function User() {
   const location = useLocation();
   const user_id = location.pathname.split("/")[2];
 
-  // console.log(user_id);
-
   const fetchUser = async () => {
     const res = await getUser(user_id);
     if (res.status == 200) {

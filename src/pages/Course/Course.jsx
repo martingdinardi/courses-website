@@ -37,7 +37,7 @@ function Course() {
     setShowWishlist,
     localStorageSavedCourses,
     savedCoursesId,
-    setSavedCoursesId
+    setSavedCoursesId,
   } = useContext(UserContext);
 
   const [course, setCourse] = useState();
@@ -103,10 +103,7 @@ function Course() {
         ...savedCoursesId,
         course_id,
       ]);
-      await saveCourse(JSON.parse(strUser).id, [
-        ...savedCoursesId,
-        course_id,
-      ]);
+      await saveCourse(JSON.parse(strUser).id, [...savedCoursesId, course_id]);
       await setSavedCoursesId(
         savedCoursesId.length > 0 ? [...savedCoursesId, course_id] : [course_id]
       );
@@ -117,8 +114,7 @@ function Course() {
     const savedCoursesWithoutDeletedCourse = savedCoursesId.filter(
       (course) => course != course_id
     );
-    // console.log(savedCoursesWithoutDeletedCourse);
-    setSavedCoursesId(savedCoursesWithoutDeletedCourse)
+    setSavedCoursesId(savedCoursesWithoutDeletedCourse);
     localStorage.setItem("saved_courses", savedCoursesWithoutDeletedCourse);
     saveCourse(JSON.parse(strUser).id, savedCoursesWithoutDeletedCourse);
   };
@@ -137,8 +133,7 @@ function Course() {
     document.title = course ? `Bliss - ${course.title}` : "Bliss";
   }, [course]);
 
-    console.log();
-
+  console.log();
 
   return (
     <>
@@ -153,10 +148,11 @@ function Course() {
                       <h2>{course.title}</h2>
                     </div>
 
-                    {
-                      strUser ? 
-                      user.id === Number(JSON.parse(strUser).id) ? null : 
-                      savedCoursesId.includes(course_id) ? (
+                    {strUser ? (
+                      user.id ===
+                      Number(
+                        JSON.parse(strUser).id
+                      ) ? null : savedCoursesId.includes(course_id) ? (
                         <img
                           src="https://www.svgrepo.com/show/39500/heart.svg"
                           alt="Saved Courses Icon"
@@ -171,13 +167,7 @@ function Course() {
                           onClick={handleSaveCourses}
                         />
                       )
-                      :
-                      null
-                    }
-
-                    
-
-
+                    ) : null}
                   </div>
                   <div className="course-rate">{stars(course)}</div>
                   <p>
@@ -244,6 +234,102 @@ function Course() {
                     );
                   })}
                 </div>
+                <div className="course-page-price" id="course-page-price-responsive">
+                <CoursePriceModal
+                  course={course}
+                  view={inView}
+                  view2={inView2}
+                  handlePriceModal={
+                    isInWishlist ? removeFromWishlist : handleAddToWhislist
+                  }
+                  user={strUser}
+                  isInWishlist={isInWishlist}
+                />
+                <div className="course-page-price-elements">
+                  <h1>{course.price} USD</h1>
+                  <p>
+                    75% Disc. <span>{course.price * 4} USD</span>
+                  </p>
+                  <small>This offer ends in 7 days</small>
+                  {strUser ? (
+                    course.owner.email === JSON.parse(strUser).email ? (
+                      ""
+                    ) : (
+                      <div className="course-page-price-button">
+                        {isInWishlist ? (
+                          <Button
+                            description="In cart"
+                            handleModal={removeFromWishlist}
+                            className="in-wishlist-button"
+                            icon={
+                              "https://www.svgrepo.com/show/143534/shopping-cart-full.svg"
+                            }
+                          />
+                        ) : (
+                          <Button
+                            description="+ Add to cart"
+                            handleModal={handleAddToWhislist}
+                          />
+                        )}
+                      </div>
+                    )
+                  ) : (
+                    <div className="course-page-price-button">
+                      <Button
+                        description="+ Add to cart"
+                        handleModal={handleAddToWhislist}
+                      />
+                    </div>
+                  )}
+
+                  <div className="course-page-price-detail">
+                    <ul>
+                      <li>
+                        <img
+                          src="https://www.svgrepo.com/show/1198/like.svg"
+                          alt="Like Icon"
+                        />{" "}
+                        100% positive reviews (461)
+                      </li>
+                      <li>
+                        <img
+                          src="https://www.svgrepo.com/show/357225/student.svg"
+                          alt="Student Icon"
+                        />{" "}
+                        13414 students
+                      </li>
+                      <li>
+                        <img
+                          src="https://www.svgrepo.com/show/256299/book-study.svg"
+                          alt="Lessons Icon"
+                        />{" "}
+                        41 lessons (6h 52m)
+                      </li>
+                      <li>
+                        <img
+                          src="https://www.svgrepo.com/show/383210/books-study-learning-education-reading-library.svg"
+                          alt="Courses Icon"
+                        />{" "}
+                        6 courses
+                      </li>
+                      <li>
+                        <img
+                          src="https://www.svgrepo.com/show/56315/download.svg"
+                          alt="Download Icon"
+                        />{" "}
+                        28 downloads (16 files)
+                      </li>
+                      <li ref={ref}>
+                        <img
+                          src="https://www.svgrepo.com/show/353760/forever.svg"
+                          alt="Unlimited Acces Icon"
+                        />{" "}
+                        Unlimited access forever
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
                 <Usercard user={user} />
               </div>
               <div className="course-page-price">
@@ -347,7 +433,6 @@ function Course() {
             ""
           )}
         </div>
-        {/* <CoursesList title="" array={discountCourses} /> */}
         <SimilarCourses course={course} />
       </Layout>
     </>

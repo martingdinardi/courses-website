@@ -1,5 +1,4 @@
 .saved-courses-container{
-    /* min-height: 65vh; */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,10 +13,6 @@ min-height: 70vh;
     display: flex;
     width: 440px;
 }
-/* 
-.saved-courses-container .course-card .course-card-body{
-    padding: 0 10px;
-} */
 
 .saved-courses-container .course-card-image {
     width: 150px;

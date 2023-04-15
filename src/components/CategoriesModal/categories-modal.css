@@ -1,149 +1,148 @@
-.categories-modal--container{
-    /* height: 500px; */
-    width: 100%;
-    background-color: #fff;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    /* background-color: rgb(26, 117, 108); */
-    padding: 0 120px;
-    z-index: 999;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.categories-modal--container {
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 20px;
+  z-index: 999;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#dark .categories-modal--container{
-    background-color: rgb(32, 34, 44);
-} 
-
-.categories-modal--elements{
-    width: 100%;
-    height: 90%;
-    /* background-color: brown; */
-    display: flex;
-    justify-content: space-between;
-    /* align-items: baseline; */
-    gap: 50px;
+#dark .categories-modal--container {
+  background-color: rgb(32, 34, 44);
 }
 
-.categories-modal--categories{
-    display: flex;
-    padding: 20px 0;
+.categories-modal--elements {
+  width: 100%;
+  height: 90%;
+  display: initial;
+  justify-content: space-between;
+  gap: 50px;
 }
 
-.categories-modal--course-categories{
-    width: 300px;
-    height: 100%;
-    /* background-color: thistle; */
+.categories-modal--categories {
+  display: flex;
+  padding: 20px 0;
 }
 
-.categories-modal--course-categories h2{
-    margin-bottom: 25px;
+.categories-modal--course-categories {
+  width: 300px;
+  height: 100%;
 }
 
-.categories-modal--course-categories ul{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.categories-modal--course-categories h2 {
+  margin-bottom: 25px;
 }
 
-.categories-modal--course-categories li{
-    list-style: none;
-    font-size: 21px;
-    margin-bottom: 10px;
+.categories-modal--course-categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-/* .categories-modal--course-categories li:hover{
-    text-decoration: underline;
-} */
+.categories-modal--course-categories li {
+  list-style: none;
+  font-size: 21px;
+  margin-bottom: 10px;
+}
 
-.categories-modal--course-categories li a:hover, .categories-modal--other-categories li a:hover {
-    color: rgb(231 40 40) !important;
-    /* text-decoration: underline; */
+.categories-modal--course-categories li a:hover,
+.categories-modal--other-categories li a:hover {
+  color: rgb(231 40 40) !important;
 }
 
 .categories-modal--course-categories ul > :last-child > :last-child:hover {
-    color: rgb(127, 213, 127) !important;
+  color: rgb(127, 213, 127) !important;
 }
 
 .categories-modal--goesgreen-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
 }
 
-.categories-modal--goesgreen-course{
-    width: 550px;
-    height: 380px;
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: end;
+.categories-modal--goesgreen-course {
+  width: 550px;
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: end;
 }
 
 .categories-modal--other-categories {
-    width: max-content;
+  width: max-content;
 }
 
-.categories-modal--other-categories li{
-    list-style: none;
+.categories-modal--other-categories li {
+  list-style: none;
 }
 
-/* .categories-modal--other-categories li:hover{
-    text-decoration: underline;
-} */
-
-.categories-modal--other-categories ul{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-size: 17px;
+.categories-modal--other-categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 17px;
 }
 
-.pro-link{
-background: -webkit-linear-gradient(rgb(255, 25, 0), rgb(183, 65, 183));
+.pro-link {
+  background: -webkit-linear-gradient(rgb(255, 25, 0), rgb(183, 65, 183));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
 }
 
 .categories-modal--goesgreen-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+
+.categories-modal--goesgreen-header img {
+  width: 25px;
+  filter: invert(1);
+}
+
+.categories-modal--goesgreen-footer {
+  display: flex;
+  gap: 3px;
+  cursor: pointer;
+  color: #fff;
+  align-items: end;
+}
+
+.categories-modal--goesgreen-footer:hover {
+  color: rgb(127, 213, 127);
+  font-size: 17px;
+}
+
+.categories-modal--goesgreen-footer:hover img {
+  filter: invert(90%) sepia(19%) saturate(1035%) hue-rotate(57deg)
+    brightness(88%) contrast(87%);
+  width: 24px;
+}
+
+.categories-modal--goesgreen-footer img {
+  width: 23px;
+  filter: invert(1);
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 930px) {
+    .categories-modal--container {
+        padding: 0 120px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+  .categories-modal--elements {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    color: white;
-}
-
-.categories-modal--goesgreen-header img{
-    width: 25px;
-    filter: invert(1);
-}
-
-.categories-modal--goesgreen-footer{
-    display: flex;
-    gap: 3px;
-    cursor: pointer;
-    color: #fff;
-    align-items: end;
-}
-
-.categories-modal--goesgreen-footer:hover{
-    color: rgb(127, 213, 127);
-    font-size: 17px;
-}
-
-.categories-modal--goesgreen-footer:hover img{
-    filter: invert(90%) sepia(19%) saturate(1035%) hue-rotate(57deg) brightness(88%) contrast(87%);
-    width: 24px;
-}
-
-.categories-modal--goesgreen-footer img{
-    width: 23px;
-    filter: invert(1);
-    align-items: flex-end;
+  }
 }

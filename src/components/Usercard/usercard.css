@@ -53,6 +53,11 @@
   color: whitesmoke !important;
 }
 
-.course-page-owner-info-icon img{
+.course-page-owner-info-icon img {
   filter: invert(1);
+}
+
+.course-page-course-owner-info-socialmedia-icons {
+  display: flex;
+  gap: 10px;
 }

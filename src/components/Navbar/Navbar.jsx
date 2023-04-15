@@ -92,8 +92,8 @@ function Navbar({ links }) {
   }, [wishlistId]);
 
   useEffect(() => {
-    setVisibleCategoriesModal(false)
-  },[pagePath])
+    setVisibleCategoriesModal(false);
+  }, [pagePath]);
 
   return (
     <>
@@ -140,17 +140,12 @@ function Navbar({ links }) {
             {wishlistId.length > 0 ? (
               <img
                 src="https://www.svgrepo.com/show/143534/shopping-cart-full.svg"
-                // src="https://www.svgrepo.com/show/39500/heart.svg"
-                // https://www.svgrepo.com/show/160079/shopping-cart-empty-side-view.svg
                 alt="wishlist-icon"
                 className="wishlist_img"
                 onClick={handleShowWishlist}
               />
             ) : (
               <img
-                // src="https://www.svgrepo.com/show/5233/heart.svg"
-                //
-                // https://www.svgrepo.com/show/324224/bookmark-favorite-favourite.svg
                 src="https://www.svgrepo.com/show/160079/shopping-cart-empty-side-view.svg"
                 alt="wishlist-icon"
                 className="wishlist_img"
@@ -167,11 +162,8 @@ function Navbar({ links }) {
               ) : (
                 <img
                   src="https://www.svgrepo.com/show/53700/heart.svg"
-                  // src="https://www.svgrepo.com/show/39500/heart.svg"
-                  // https://www.svgrepo.com/show/160079/shopping-cart-empty-side-view.svg
                   alt="Saved Courses Icon"
                   className="saved_courses_img"
-                  // onClick={handleShowWishlist}
                 />
               )}
             </Link>
@@ -203,6 +195,39 @@ function Navbar({ links }) {
             {showLoginModal ? <LoginModal /> : ""}
           </div>
         )}
+      </div>
+      <div
+        id="responsive-navbar"
+        className="navbar"
+        style={{ zIndex: visibleCategoriesModal ? "99" : "" }}
+      >
+        <div className="navbar-header">
+          <div 
+          className="navbar__links">
+            <ul>
+              {links
+                ? links.map((link, i) => {
+                    return (
+                      <li
+                        key={link}
+                        onMouseOver={
+                          link === "Categories"
+                            ? handleShowCategoriesModal
+                            : null
+                        }
+                        style={{
+                          marginRight: i != links.length - 1 ? "20px" : "",
+                        }}
+                        className={link === "PRO" ? "pro-link" : ""}
+                      >
+                        {link}
+                      </li>
+                    );
+                  })
+                : ""}
+            </ul>
+          </div>
+        </div>
       </div>
       {showWishlist ? (
         <Wishlist arr={wishlistId[0] !== "" ? wishlist : []} />

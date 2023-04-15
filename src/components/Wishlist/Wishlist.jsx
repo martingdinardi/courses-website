@@ -21,7 +21,6 @@ function Wishlist({ arr }) {
 
   const calculateTotalPrice = (arr) => {
     let totalPrice = 0;
-    // arr ? totalPrice+= Number(arr[1].price) : null
     if (arr.length) {
       for (let i = 0; i < arr.length; i++) {
         totalPrice += Number(arr[i].price);

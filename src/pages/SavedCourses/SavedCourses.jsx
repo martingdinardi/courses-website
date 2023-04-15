@@ -19,8 +19,6 @@ function SavedCourses() {
     handleCourses();
   }, [savedCoursesId]);
 
-  console.log(savedCoursesId);
-
   return (
     <>
     <div className="saved-courses-container">

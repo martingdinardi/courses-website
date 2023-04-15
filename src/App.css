@@ -1,14 +1,6 @@
 body {
-  /* font-family: "Courier New", Courier, monospace; */
   font-family: Helvetica, Arial, sans-serif;
 }
-
-/* .App {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
 
 * {
   margin: 0;
@@ -17,7 +9,7 @@ body {
 }
 
 .main {
-  padding: 20px 200px;
+  padding: 20px 120px;
 }
 
 .App#dark {
@@ -40,4 +32,10 @@ a {
 #dark a {
   color: aliceblue;
   text-decoration: none;
+}
+
+@media screen and (max-width: 930px) {
+  .main {
+    padding: 20px;
+  }
 }

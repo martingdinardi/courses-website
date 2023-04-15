@@ -69,8 +69,6 @@ function Main({ user }) {
     }
   }, []);
 
-  // console.log(strUser);
-
   return (
     <>
       {user.email === loggedUser.email ? (

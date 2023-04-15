@@ -28,12 +28,6 @@ function Home() {
   const restartDatabase = async () => {
     try {
       await setShowResetDatabaseModal(false)
-      // await courses.forEach(course => {
-      //   deleteCourse(course.id)
-      // });
-      // await users.forEach(user => {
-      //   deleteUser(user.id)
-      // })
       executeSeed();
       await localStorage.setItem('new_visitor', false)
     } catch (error) {

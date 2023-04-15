@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.navbar-header{
+.navbar-header {
   display: flex;
   gap: 30px;
 }
@@ -38,15 +38,18 @@
 }
 
 .navbar__links {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+#responsive-navbar .navbar__links{
+  display: flex;
 }
 
 .navbar li {
   display: inline-block;
   cursor: pointer;
-  /* font-weight: 800; */
   font-size: 17px;
 }
 
@@ -60,25 +63,26 @@
   color: white;
 }
 
-.navbar .navbar_buttons_login{
+.navbar .navbar_buttons_login {
   background-color: transparent;
   color: black;
   font-weight: bold;
 }
 
-#dark .navbar_buttons_login{
+#dark .navbar_buttons_login {
   color: white;
 }
 
-#dark .navbar .navbar_buttons_login:hover, .navbar .navbar_buttons_login:hover{
+#dark .navbar .navbar_buttons_login:hover,
+.navbar .navbar_buttons_login:hover {
   color: red;
 }
 
-.sign-up-button{
+.sign-up-button {
   margin: 20px 0 0 0;
 }
 
-.navbar .modal-container{
+.navbar .modal-container {
   width: 300px;
 }
 
@@ -88,23 +92,38 @@
   align-items: center;
 }
 
-.navbar_usercard_img_container .wishlist_img{
+.navbar_usercard_img_container .wishlist_img {
   width: 23px;
   cursor: pointer;
 }
 
-.navbar_usercard_img_container a{
+.navbar_usercard_img_container a {
   display: flex;
 }
 
-#dark .navbar_usercard_img_container .wishlist_img{
-  filter: invert(100%) sepia(94%) saturate(23%) hue-rotate(1deg) brightness(106%) contrast(106%);
+#dark .navbar_usercard_img_container .wishlist_img {
+  filter: invert(100%) sepia(94%) saturate(23%) hue-rotate(1deg)
+    brightness(106%) contrast(106%);
 }
 
-.navbar_usercard_img_container .saved_courses_img{
+.navbar_usercard_img_container .saved_courses_img {
   width: 20px;
 }
 
-#dark .navbar_usercard_img_container .saved_courses_img{
+#dark .navbar_usercard_img_container .saved_courses_img {
   filter: invert(1);
+}
+
+#responsive-navbar {
+  border-top: 1px solid rgb(41 43 55);;
+  height: 60px;
+}
+
+@media screen and (min-width: 515px){
+  #responsive-navbar{
+      display: none;
+  }
+  .navbar__links {
+    display: flex;
+  }
 }
